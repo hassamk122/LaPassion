@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme{
+    --font-Poppins:"Poppins",serif;
+    --color-dark-purple :#172036;
+    --color-light-purple:#455fa1;
+    --color-medium-purple:#263559;
+    --color-logo-bg:#b8b8b8;
+    --color-yt-red:#FF0033;
+}
+.nav-li{
+
+    @apply   flex items-center justify-center font-Poppins text-xs  cursor-pointer text-gray-300 dark:text-gray-600 px-2 py-1 gap-x-2
+     transition-all delay-50 duration-200 ease-in-out hover:text-white dark:hover:text-dark-purple;
+}
+
+
+
