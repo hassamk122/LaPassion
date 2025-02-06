@@ -10,6 +10,7 @@ function YtBox(props) {
             className="w-12 h-12 sm:w-15 sm:h-15 rounded-full cursor-pointer  hover:scale-120 transition-all
             delay-50 duration-300 ease-in-out"
             alt={props.name}
+              loading="lazy"
           />
         </a>
       </div>
