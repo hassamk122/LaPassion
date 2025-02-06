@@ -25,6 +25,7 @@ To run **La Passion** locally, follow these steps:
   Start the application:
     ```bash
     npm start
+     ```
 
 
 
